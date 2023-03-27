@@ -1,0 +1,13 @@
+- untuk menyeleksi dan memanipuliasi sesuruh li dan juga sub nya, bisa menggunakan $('#destination li');
+
+- untuk menyelekasi dan memanipulasi elemen li saja tidak termasuk subnya, bisa pake  $('#destination >li');
+
+- untuk menyeleksi dan memanipuliasi elemen li paling awal $('#destination li:first');
+
+- untuk menyeleksi dan memanipuliasi elemen li paling akhir $('#destination li:last');
+
+- untuk menyeleksi dan memanipuliasi elemen li genap $('#destination li:odd');
+
+- untuk menyeleksi dan memanipuliasi elemen li genap $('#destination li:odd');
+
+- untuk memanipulasi berdasarkan class dan juga id sekaligus di html juga bisa dengan cara  $('.forClass,#forId') tinggal di pisah dengan koma
