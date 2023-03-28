@@ -9,15 +9,40 @@
 <body>
     
     <script src="/jquery-3.6.4.min.js"></script>
-
-    <ul>
+<h1 id=""></h1>
+    <ul class="lokasi">
         <li>Jakarta</li>
         <li>Bandung</li>
         <li>Semarang</li>
         <li>Bekasi</li>
     </ul>
 <script>
-   
+
+//---------------------------------------Menambahkan elemen baru dengan Jquery ke bagian paling atas--
+   $(document).ready(function () {  
+
+    let jogja = $('<li>DIY YOGYA</li>')
+    $('.lokasi').prepend(jogja)
+
+   })
+//--------------------------------------------------------------------------------
+
+
+//---------------------------------------Menambahkan elemen baru dengan Jquery ke bagian paling bawah--
+
+$(document).ready(function () {  
+
+    let bali =$('<li>KOTA BALI</li>')
+    $('.lokasi').append(bali)
+
+})
+
+//------------------------------------------------------------------------------
+
+
+//---------------------------------------Menambahkan elemen baru dengan Jquery ke bagian sebelum class atau id --
+
+
 </script>
 </body>
 </html>
