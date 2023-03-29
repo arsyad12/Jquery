@@ -1,0 +1,19 @@
+JQuery adalah kumpulan fungsi fungsi yang berguna memudahkan dalam penulisan code javascript
+
+
+- cara import Jquery, search di google Jquery, klik download, klik kanan pada update paling baru
+pilih save link as dan save di tempat proyek yang kita mau masuukin
+
+-untuk memanggil sourcenya di html, bisa di impor dalam body, biar ga memberatkan loading website
+
+
+Manfaat jQuery
+
+    Menemukan elemen dalam dokumen HTML
+    Mengubah konten HTML
+    Mendengarkan apa yang dilakukan pengguna dan melakukan tindakan yang sesuai (event listener)
+    Membuat animasi konten di halaman
+    Berbicara melalui jaringan untuk mengambil konten baru. (AJAX)
+
+
+- Untuk melihat semua cara penggunaan Jquery bisa liat documentation disini https://api.jquery.com/
