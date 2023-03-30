@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="/Fungsi GET Jquery/jquery-3.6.4.min.js"></script>
+
+    <h1 id="">LIBURAN MURAH DAN HEMAT</h1>
+    
+    <ul class="lokasi">
+        <li class="jakarta">Jakarta</li>
+        <li class="bandung"><strong>Bandung</strong></li>
+        <input type="text" class="input" value="100"></input>
+    </ul>
+
+<script>
+
+//---------------------------------------Mendapatkan text dari elemen li yang punya class jakarta--
+$(document).ready(function () {
+    console.log($('.jakarta').text())
+});
+//-------------------------------------------------------------------------------------------------
+
+
+//---------------------------------------Mendapatkan text dan juga html dari elemen li yang punya class bandung--
+$(document).ready(function () {
+    console.log($('.bandung').html())
+});
+//-------------------------------------------------------------------------------------------------
+
+
+//---------------------------------------Mendapatkan value dari sebuah form input dengan class input--
+$(document).ready(function () {
+    console.log($('.input').val())
+});
+//-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

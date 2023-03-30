@@ -8,8 +8,8 @@
 </head>
 <body>
     
-    <script src="/jquery-3.6.4.min.js"></script>
-<h1 id=""></h1>
+    <script src="/Fungsi Add Jquery/jquery-3.6.4.min.js"></script>
+<h1 id="">LIBURAN MURAH DAN HEMAT</h1>
     <ul class="lokasi">
         <li>Jakarta</li>
         <li>Bandung</li>
@@ -42,40 +42,14 @@ $(document).ready(function () {
 
 //---------------------------------------Menambahkan elemen baru dengan Jquery ke bagian sebelum class atau id --
 
+$(document).ready(function(){
+    let subJudul = $('<h2>Ayo Pilih Lokasinya</h2>')
+    $('.lokasi').before(subJudul)
+})
+
+//------------------------------------------------------------------------------
 
 </script>
-
-
-
-
-<h1>List Kota</h1>
-
-<ul>
-    <li>Roma</li>
-    <li>Paris</li>
-    <li>Japan</li>
-</ul>
-
-
-
-<script src="/jquery-3.6.4.min.js"></script><!---mengimport file jquery-->
-
-
-<script>
-
-    $(document).ready(function () {
-        console.log('Jquery Has run');
-    });
-        
-
-
-    $('li').text('indomie')
-
-</script>
-
-
-
-
 
 </body>
 </html>
