@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.merah{
+    color: red;
+}
+
+.biru{
+    color: blue;
+}
+
+.kuning{
+    color: yellow;
+}
+
+
+.coklat{
+    color: brown;
+}
+    </style>
+
+
+</head>
+<body>
+    
+    <script src="/7. Manipulasi CSS dengan Jquery/jquery-3.6.4.min.js"></script>
+<h1 id="">LIBURAN MURAH DAN HEMAT</h1>
+<ul>
+    <li class="jk">Jakarta</li>
+    <li class="ri">Riau</li>
+    <li class="bd">Bandung</li>
+    <li class="sby">Surabaya</li>
+</ul>
+
+
+<button id="changeColor">Rubah Warna Bandung</button></li>
+<button id="changeColor2">Rubah Warna Bandung Merah</button></li>
+<button id="changeStyle">Rubah Style Jakarta</button></li>
+
+<script>
+
+//---------------------------------------Add Class style/ css--
+//class yang udah dipake gabisa dipanggil lagi di class lain
+//agar bisa digunakan bisa pake fitur remove class dulu
+   $(document).ready(function () {  
+
+  $('.jk').addClass('merah')
+  $('.bd').addClass('kuning')
+  $('.ri').addClass('biru')
+
+
+  $('#changeColor').on('click',()=>{
+
+    $('.bd').addClass('coklat')
+
+  })
+
+  //contoh penggunaan removeclass
+
+  $('#changeColor2').on('click',()=>{
+    
+    $('.bd').removeClass('kuning')
+    $('.bd').removeClass('coklat')
+    $('.bd').addClass('merah')
+
+})
+
+})
+
+//--------------------------------------------------------------------------------
+
+
+
+
+
+
+//---------------------------------------Merubah Css dalam Jquery--
+$(document).ready(function () {
+    
+    $('#changeStyle').on('click',()=>{
+
+        $('.jk').css({
+            fontSize : 100
+        })
+})
+
+})
+
+
+//--------------------------------------------------------------------------------
+
+
+</script>
+
+</body>
+</html>

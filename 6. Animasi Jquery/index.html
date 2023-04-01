@@ -11,10 +11,17 @@
     <script src="/6. Animasi Jquery/jquery-3.6.4.min.js"></script>
 <h1 id="">LIBURAN MURAH DAN HEMAT</h1>
 <ul>
+    <li class="su">Slide Up<button class="btnSu">Slide Up</button></li>
+    <li class="sd">Slide Down<button class="btnSd">Slide Down</button></li>
     <li class="bd">Bandung <button class="btnBd">Hide</button></li>
     <li class="sby">Surabaya <button class="btnSby">Fade out</button></li>
-    <li>Karawang <button class="btnKw">Go</button></li>
+    <li class="toogle">Toogle</li>
+    <li class="animate">animate</li>
 </ul>
+
+
+<button class="btnToggle">Toggle</button></li>
+<button class="btnAnimate">animate</button></li>
 
 <script>
 
@@ -42,6 +49,57 @@ $(document).ready(function () {
  })
  
 //--------------------------------------------------------------------------------
+
+
+//---------------------------------------Efect Slide Up--
+
+$(document).ready(function () { 
+    $('.btnSu').on('click',()=>{
+        $('.su').slideUp()
+    })
+ })
+ 
+//--------------------------------------------------------------------------------
+
+
+//---------------------------------------Efect Slide Down--
+
+$(document).ready(function () { 
+    $('.btnSd').on('click',()=>{
+        $('.sd').slideDown()
+    })
+ })
+ 
+//--------------------------------------------------------------------------------
+
+
+
+//---------------------------------------Efect Toogle--
+
+$(document).ready(function () { 
+    $('.btnToggle').on('click',()=>{
+        $('.toogle').toggle(2000)
+    })
+ })
+ 
+//--------------------------------------------------------------------------------
+
+
+
+//---------------------------------------Animate Effect--
+
+$(document).ready(function () { 
+    $('.btnAnimate').on('click',()=>{
+        $('.animate').animate({
+
+            marginLeft : 200
+        })
+    })
+ })
+ 
+//--------------------------------------------------------------------------------
+
+
 
 
 </script>
