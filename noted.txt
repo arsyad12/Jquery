@@ -23,3 +23,4 @@ Manfaat jQuery
 -Fungsi Get Jquery adalah untuk mendapatkan elemen elemen
 -Fungsi Set Jquery adalah untuk memodifikasi elemen elemen
 -Fungsi Remove Jquery adalah untuk membuang elemen elemen
+

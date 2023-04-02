@@ -1,0 +1,30 @@
+JQUERY UI .com / https://jqueryui.com/
+
+-Interactions
+-Widgets
+-Effects
+-Utilities
+
+
+JQUERY SLICK / https://kenwheeler.github.io/slick/
+
+-Slider
+
+JQUERY POPUP - VAST / https://dev.vast.com/
+
+-POP UP / ALERT overlay
+
+
+JQUERY UPLOAD FILE / https://blueimp.github.io/jQuery-File-Upload/
+
+-UPLOAD FILE 
+
+
+
+BOOTSTRAP JQUERY
+
+-banyak pilihan
+
+
+
+SELAIN LIST DIATAS ADA BANYAK LAGI LIBRARY, SAILAHKAN CEK DI GOOGLE JENIS JENIS LIBRARY JQUERY TERBAIK
